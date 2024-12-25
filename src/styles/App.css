@@ -1,0 +1,42 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.app-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.loader {
+  text-align: center;
+  font-size: 18px;
+  color: #007bff;
+}
+
+.error-container {
+  text-align: center;
+  color: #dc3545;
+}
+
+.retry-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.retry-button:hover {
+  background-color: #0056b3;
+}
+
+.no-data {
+  text-align: center;
+  font-size: 18px;
+  color: #6c757d;
+}
